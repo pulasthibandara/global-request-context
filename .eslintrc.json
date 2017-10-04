@@ -1,0 +1,12 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+        "no-unused-expressions": "off"
+    },
+    "globals": {
+        "Zone": true,
+        "describe": true,
+        "it": true,
+        "afterEach": true
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "global-request-context",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha -r ./test-setup src/**/*.test.js"
+  },
+  "author": "pulasthi1989@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.32",
+    "chai": "^4.1.2",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^4.0.0",
+    "sinon": "^4.0.1",
+    "sinon-chai": "^2.14.0"
+  },
+  "dependencies": {
+    "zone.js": "^0.8.18"
+  },
+  "description": "A middleware that enables to require request context as if it was global.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulasthibandara/global-request-context.git"
+  },
+  "keywords": [
+    "express",
+    "request",
+    "context",
+    "middleware"
+  ],
+  "bugs": {
+    "url": "https://github.com/pulasthibandara/global-request-context/issues"
+  },
+  "homepage": "https://github.com/pulasthibandara/global-request-context#readme"
+}
