@@ -1,3 +1,4 @@
+/** @type {{ [key:string]: any }} */
 const context = new Proxy({}, {
   get(target, propertyKey, reciever) {
     const ctx = Zone.current.get('requestContext');
