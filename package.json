@@ -1,6 +1,6 @@
 {
   "name": "global-request-context",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha -r ./test-setup src/**/*.test.js"
@@ -30,7 +30,8 @@
     "express",
     "request",
     "context",
-    "middleware"
+    "middleware",
+    "koa"
   ],
   "bugs": {
     "url": "https://github.com/pulasthibandara/global-request-context/issues"
