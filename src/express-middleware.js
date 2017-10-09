@@ -1,7 +1,7 @@
 module.exports = (req, res, next) => {
   const requestContext = { req, res };
   Zone.current
-    .fork({ name: 'express-context', properties: { requestContext } })
+    .fork({ name: 'request-context', properties: { requestContext } })
     .run(() => {
       next();
     });

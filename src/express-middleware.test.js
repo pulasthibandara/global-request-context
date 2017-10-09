@@ -16,7 +16,7 @@ describe('Express middleware', () => {
     sandbox.stub(Zone.current, 'fork').returns({ run() { } });
     expressMiddleware(req, res, next);
     expect(Zone.current.fork).to.have.been.calledWith({
-      name: 'express-context',
+      name: 'request-context',
       properties: { requestContext: { req, res } },
     });
   });

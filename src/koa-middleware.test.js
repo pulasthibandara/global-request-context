@@ -15,7 +15,7 @@ describe('Koa middleware', () => {
     sandbox.stub(Zone.current, 'fork').returns({ run() { } });
     koaMiddleware(ctx, next);
     expect(Zone.current.fork).to.have.been.calledWith({
-      name: 'express-context',
+      name: 'request-context',
       properties: { requestContext: ctx },
     });
   });
