@@ -1,8 +1,8 @@
 /* eslint-disable import/no-extraneous-dependencies */
 require('zone.js');
 const express = require('express');
-const requestContext = require('global-request-context');
-const expressContext = require('global-request-context/lib/express-middleware');
+const requestContext = require('../');
+const expressContext = require('../lib/express-middleware');
 
 const app = express();
 

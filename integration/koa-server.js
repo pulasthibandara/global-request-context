@@ -2,8 +2,8 @@
 require('zone.js');
 const { isFunction } = require('util');
 const Koa = require('koa');
-const requestContext = require('global-request-context');
-const koaContext = require('global-request-context/lib/koa-middleware');
+const requestContext = require('../');
+const koaContext = require('../lib/koa-middleware');
 
 const app = new Koa();
 

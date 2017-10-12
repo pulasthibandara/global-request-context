@@ -48,7 +48,7 @@ function handleRequestKoa() {
 3. Run the application with zone.js as a polyfill
 ```sh
 # require zone.js at execution
-node -r server.js
+node -r zone.js server.js
 ```
 
 or
