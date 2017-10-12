@@ -1,5 +1,5 @@
 # Global Request Context
-> A middleware that enables to `require()` request context.
+> A middleware that enables you to `require()` request context.
 
 Tired of passing the request context through functions?
 Need to get the current user session in that deeply nested function?
