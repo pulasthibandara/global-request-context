@@ -1,15 +1,17 @@
 # Global Request Context
 > A middleware that enables to `require()` request context.
 
-Tired of passing the request context through functions? Need to get the current 
-user session in that deeply nested function. Or simply coming from PHP or .NET 
-and don't wanna do it the node.js way? This is the module for you?
+Tired of passing the request context through functions?
+Need to get the current user session in that deeply nested function?
+Or simply coming from PHP or .NET and don't wanna do it the node.js way?
+
+This is the module for you...
 
 
-But seriously why?
+But seriously, why?
 
 
-The easy answer is... just because you can!.
+The easy answer is... Just because you can!
 
 ## How to use
 
