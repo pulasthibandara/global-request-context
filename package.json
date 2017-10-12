@@ -1,9 +1,10 @@
 {
   "name": "global-request-context",
-  "version": "0.2.0",
-  "main": "src/index.js",
+  "version": "0.3.0",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "mocha -r ./test-setup src/**/*.test.js"
+    "test": "mocha -r ./test-setup lib/*.test.js",
+    "test-integration": "mocha -r ./test-setup -t 10000 integration/*.test.js"
   },
   "author": "pulasthi1989@gmail.com",
   "license": "MIT",
@@ -14,9 +15,12 @@
     "eslint": "^4.8.0",
     "eslint-config-airbnb-base": "^12.0.1",
     "eslint-plugin-import": "^2.7.0",
+    "express": "^4.16.2",
+    "koa": "^2.3.0",
     "mocha": "^4.0.0",
     "sinon": "^4.0.1",
-    "sinon-chai": "^2.14.0"
+    "sinon-chai": "^2.14.0",
+    "global-request-context": "file:."
   },
   "dependencies": {
     "zone.js": "^0.8.18"
